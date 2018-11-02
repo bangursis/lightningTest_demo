@@ -1,3 +1,3 @@
 <aura:application>
-   <c:lts_jasmineRunner testFiles="{!$Resource.test}"/> 
+   <c:lts_jasmineRunner testFiles="{!$Resource.testFile}"/> 
 </aura:application>	
