@@ -1,5 +1,6 @@
 <aura:component>
    <aura:attribute name="int" type="Integer" default="0"/> 
-
+   
+   <aura:method name="increment" action="{!c.click}"/>
    <lightning:button aura:id="btn" onclick="{!c.click}" label="btn"/>
 </aura:component>	
