@@ -1,3 +1,5 @@
 <aura:component>
    <aura:attribute name="int" type="Integer" default="0"/> 
+
+   <lightning:button aura:id="btn" onclick="{!c.click}" label="btn"/>
 </aura:component>	
